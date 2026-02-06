@@ -1,4 +1,4 @@
-const API = "http://localhost:8080/api";
+const API = "https://myinfo-iqq5.onrender.com";
 
 export const getProfile = async () => {
   const res = await fetch(`${API}/profile`);
